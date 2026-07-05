@@ -6,6 +6,7 @@ button. addEventListener("click", () => {
 });
 
 const swiper = new Swiper('.swiper', {
+    spaceBetween: 16,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
