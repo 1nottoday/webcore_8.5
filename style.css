@@ -78,6 +78,9 @@
 .open-logo{
     width: 24px;
 }
+.swiper {
+    display: none;
+}
 @media (min-width: 768px) and (max-width: 1119px){
   .brands-grid {
     display: grid;
@@ -105,3 +108,66 @@
     width: 180px;
  }
 }
+@media (max-width: 767px){
+    .brands-grid {
+        display: none;
+    }
+    .hidden-icon {
+        display: none;
+    }
+    .swiper {
+        display: block;
+        width: auto;
+        padding: 16px;
+        margin-bottom: 30px;
+       
+    }
+    .swiper-wrapper{
+        display: flex;
+        
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        padding: 20px;
+        height: 150px;
+        box-sizing: border-box;
+        width: 240px;
+        flex-shrink: 0;
+    
+    }
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #e0e0e0;
+        opacity: 1;
+        margin: 0 6px !important;
+    }
+    .swiper-pagination-bullet:hover {
+       background-color: rgba(181, 182, 188, 1);
+       opacity: 1;
+    }
+    .brand-logo.bosch{
+       width: 200px;
+    }
+    .brand-logo.lenovo{
+       width: 180px;
+    }
+    .brand-logo.samsung{
+       width: 180px;
+    }
+    .brand-logo.acer{
+       width: 160px;
+    }
+    .brand-logo.sony{
+       width: 180px;
+    }
+   
+    
+}
+    
