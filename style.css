@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     border-top: 2px solid rgba(217, 255, 245, 1);
+    margin: 16px;
 }
 
 .headline {
@@ -35,8 +36,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px 32px;
-    margin-bottom: 25px;
-    max-height: 320px;
+    margin: 24px;
+    max-height: 380px;
     overflow: hidden;
 }
     .background-color {
@@ -58,6 +59,7 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     transition: transform 0.2s, box-shadow 0.2s;
     height: 150px;
+    margin-top: 24px;
 
 }
 .hidden-icon {
@@ -69,7 +71,7 @@
     color: #040404;
     font-size: 20px;
     cursor: pointer;
-    padding: 10px 15px;
+    padding: 10px 15px 30px 30px;
     
 }
 .hidden-icon .hiddencontent {
@@ -105,7 +107,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 16px 32px;
-    max-height: 320px; 
+    margin: 24px;
+    max-height: 380px; 
     overflow: hidden;
   }
   .brand-card.open.desktop {
