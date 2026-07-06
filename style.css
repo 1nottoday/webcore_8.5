@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     border-top: 2px solid rgba(217, 255, 245, 1);
-    margin: 16px;
+    margin-bottom: 16px;
 }
 
 .headline {
@@ -26,6 +26,7 @@
     padding: 30px;
     font-size: 24px; 
     color: #2b2929;
+    margin-top: 30px;
 }
 .brand-logo {
    width: auto;
