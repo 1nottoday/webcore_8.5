@@ -12,7 +12,7 @@
 }
 .header{
     background: linear-gradient(to right, rgba(248, 248, 248, 1), rgba(255, 255, 255, 1));
-    height: 120px;
+    height: 56px;
     display: flex;
     align-items: center;
     border-top: 2px solid rgba(217, 255, 245, 1);
@@ -81,6 +81,25 @@
 .swiper {
     display: none;
 }
+.brand-logo.bosch{
+    width: 200px;
+}
+.brand-logo.lenovo{
+    width: 180px;
+}
+.brand-logo.samsung{
+    width: 180px;
+}
+.brand-logo.acer{
+    width: 160px;
+}
+.brand-logo.sony{
+    width: 180px;
+}
+.brand-logo.viewSonic{
+    width: 180px;
+}
+   
 @media (min-width: 768px) and (max-width: 1119px){
   .brands-grid {
     display: grid;
@@ -118,8 +137,9 @@
     .swiper {
         display: block;
         width: auto;
-        padding: 16px;
+        padding: 16px 16px 66px 16px;
         margin-bottom: 30px;
+        min-width: 320px;
        
     }
     .swiper-wrapper{
@@ -151,6 +171,10 @@
     .swiper-pagination-bullet:hover {
        background-color: rgba(181, 182, 188, 1);
        opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: rgba(181, 182, 188, 1);
+
     }
     .brand-logo.bosch{
        width: 200px;
